@@ -8,5 +8,5 @@ function dateYears () {
     } else {     // return absolute value of difference if correct formating
       return `The difference in years between ${pastDate} and now is ${Math.abs(difference)} years`
     }
-}
+} //commit to git
 console.log(dateYears())
